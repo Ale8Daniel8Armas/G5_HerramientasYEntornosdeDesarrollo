@@ -4,7 +4,7 @@
 
 @layer components {
   .MuiAppBar-root {
-    @apply bg-purple-600; /* Cambio de color a púrpura */
+    @apply bg-red-600; 
   }
   .MuiAppBar-root .container {
     @apply flex justify-between items-center;
@@ -22,13 +22,13 @@
     @apply rounded-t-lg;
   }
   .MuiCardContent-root {
-    @apply p-6; /* Aumento del padding a 6 unidades */
+    @apply p-6; 
   }
   .MuiButton-root {
     @apply px-6 py-3 rounded-lg shadow-lg; /* Aumento del padding y la sombra */
   }
   .MuiButton-containedPrimary {
-    @apply bg-blue-500 text-white; /* Mantenemos el color azul para botones primarios */
+    @apply bg-red-500 text-white; /* Mantenemos el color azul para botones primarios */
   }
 }
 
